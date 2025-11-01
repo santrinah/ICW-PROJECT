@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Kampy Santas</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Your Journey to Better Meals Starts Here.</h1>
+            <p>Discover curated recipes, powerful meal planning tools, and a community of home cooks.</p>
+            <img src="assets/image.jpg" alt="A diverse healthy meal spread" width="800" height="400">
+        </section>
+
+        <section class="content-section featured-recipes">
+            <h2>Today's Top Recipes</h2>
+            <div class="recipe-cards">
+                <article class="recipe-card">
+                    <img src="assets/recipe.png" alt="Recipe 1: Green Smoothie" width="300" height="200">
+                    <h3>The Ultimate Green Smoothie</h3>
+                    <p>A quick, healthy, and energizing start to your day. Ready in 5 minutes!</p>
+                </article>
+                <article class="recipe-card">
+                    <img src="assets/recipe2.png" alt="Recipe 2: Chicken Stir-fry" width="300" height="200">
+                    <h3>30-Minute Chicken Stir-fry</h3>
+                    <p>Perfect for a busy weeknight. Customize with your favorite vegetables.</p>
+                </article>
+                <article class="recipe-card">
+                    <img src="assets/cake image.jpeg" alt="Recipe 3: Chocolate Cake" width="300" height="200">
+                    <h3>Decadent Chocolate Cake</h3>
+                    <p>The perfect dessert for any celebration, moist and rich.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="content-section video-section">
+            <h2>Featured Video: Quick Meal Prep Tip</h2>
+            <video width="600" height="340" controls poster="assets/videos.mp4">
+            <source src="assets/videos.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section class="content-section newsletter-signup">
+            <h2>Never Miss a Recipe!</h2>
+            <p>Sign up for our weekly newsletter to get the latest meals and planning tips delivered to your inbox.</p>
+            <form action="/subscribe" method="POST" class="newsletter-form">
+                <label for="email" class="visually-hidden">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <button type="submit" class="primary-btn">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kampy Santas. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
